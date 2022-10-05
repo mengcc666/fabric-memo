@@ -1,0 +1,7 @@
+[error]
+WARNING: Found orphan containers (ca_org1, ca_orderer, ca_org2) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.
+[solution]
+docker rm -f $(docker ps -aq)
+
+
+
