@@ -5,4 +5,11 @@ If you removed or renamed this service in your compose file, you can run this co
 docker rm -f $(docker ps -aq)
 
 
+[error]
+cannot stop container, permission denied
+[solution]
+aa-remove-unknown
 
+
+[error]
+scripts/createChannel.sh: line 44: osnadmin: command not found
