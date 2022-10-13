@@ -1,0 +1,2 @@
+Q: How to config "ca"(certificate authority)?
+A: ./network -ca
