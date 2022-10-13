@@ -20,8 +20,20 @@ failed constructing descriptor for chaincodes:<name:"basic" >
 deploy chaincode
 >./network.sh deployCC -ccn basic -ccp <chaincode path> -ccl <chaincode language>
 
+
+
 [error]
 [DiscoveryResultsProcessor]: parseDiscoveryResults[mychannel] - Channel:mychannel received discovery error:access denied
 [solution]
 Delete "wallet" file
 >rm -rf wallet
+=======
+Error: Error getting broadcast client: orderer client failed to connect to orderer.example.com:7050: 
+failed to create new connection: context deadline exceeded
+[solution]
+You need to uninstall Docker Desktop and reinstall the recommended version 2.5.0.1. 
+Then, reclone the fabric-samples repository before reattempting the commands.
+
+(url: https://docs.docker.com/engine/install/ubuntu/)
+
+
