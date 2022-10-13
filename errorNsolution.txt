@@ -12,4 +12,16 @@ aa-remove-unknown
 
 
 [error]
-scripts/createChannel.sh: line 44: osnadmin: command not found
+error: [DiscoveryResultsProcessor]: parseDiscoveryResults[basic] - Channel:mychannel received discovery error:
+failed constructing descriptor for chaincodes:<name:"basic" > 
+******** FAILED to run the application: Error: DiscoveryService: basic error: 
+failed constructing descriptor for chaincodes:<name:"basic" > 
+[solution]
+deploy chaincode
+>./network.sh deployCC -ccn basic -ccp <chaincode path> -ccl <chaincode language>
+
+[error]
+[DiscoveryResultsProcessor]: parseDiscoveryResults[mychannel] - Channel:mychannel received discovery error:access denied
+[solution]
+Delete "wallet" file
+>rm -rf wallet
