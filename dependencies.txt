@@ -1,4 +1,0 @@
-System:Linux(Ubuntu)
-
-[Java]
-https://docs.oracle.com/en/java/javase/19/install/installation-jdk-linux-platforms.html#GUID-737A84E4-2EFF-4D38-8E60-3E29D1B884B8
