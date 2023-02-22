@@ -71,9 +71,11 @@ DOCKER=true
 SAMPLES=true
 BINARIES=true
 
-Only set DOCKER=true. SAMPLES=false BINARIES=false
+#Only set DOCKER=true. SAMPLES=false BINARIES=false
 
+>./bootstrap.sh
 
+Cong!!!
 Now you can run example application in fabric-samples.
 
 
