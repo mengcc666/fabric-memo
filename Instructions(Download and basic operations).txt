@@ -18,12 +18,12 @@ Specicy a release and "git clone".
 >cd fabric/scripts
 >vim bootstrap.sh
 # if version not passed in, default to latest released version
-VERSION=2.2.8
+VERSION=2.2.10
 # if ca version not passed in, default to latest released version
-CA_VERSION=1.5.3
+CA_VERSION=1.5.5
 
-VERSION=2.2.8		=> Fabric binary file version
-CA_VERSION=1.5.3	=> CA binary file version
+VERSION=2.2.10		=> Fabric binary file version
+CA_VERSION=1.5.5	=> CA binary file version
 
 These two version is important in the next step.
 
@@ -33,12 +33,12 @@ These two version is important in the next step.
 Fabric binary file
 url=>	github.com/hyperledger/fabric
 This time don't clone, instead, click "Releases" on the right side on the screen.
-Then, find the right version from Step.2 (eg. tag 2.2.8) and download ***-linux-***.tar.gz
+Then, find the right version from Step.2 (eg. tag 2.2.10) and download ***-linux-***.tar.gz
 
 CA binary file
 url=>	github.com/hyperledger/fabric-ca
 Similar operations.
-(eg. CA 1.5.3)
+(eg. CA 1.5.5)
 
 
 {4}Extract .tar.gz file
